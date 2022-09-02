@@ -11,14 +11,15 @@ This capstone project will be an application of what you've learned from the two
 	git branch             // check and make sure you are currently on your john-doe branch, not main
 	```
 3. As you can see, this repo only contains the `README.md` file. It's up to you to generate a new React JS project on your branch after you've chosen what type of DApp project you'd be working on.
+4. Once you're done, just message [@harveyjavier](https://github.com/harveyjavier) on Slack, and he will check your branch.
 
 ## Select from these type of DApp projects
 
 ### NFT Marketplace
-Deploy your own set of ERC721s or NFTs on testnet, and create your own marketplace for it. More like an e-commerce website for NFTs. It must have a _Connect wallet_ function, and 
+Deploy your own set of ERC721s or NFTs on testnet, and create your own marketplace for it. More like an e-commerce website for NFTs. It must have a _Connect wallet_ function, and purchase of the NFTs should be in ETH.
 
 ### Pool Staking
-Deploy your own ERC20 token, and a staking pool contract on testnet. Then integrate it to a DApp.
+Deploy your own ERC20 token, and a staking pool contract on testnet. Then integrate it to a DApp. It must have a _Connect wallet_ function, and staking should have an accurate formula.
 
 ### Simple Game
 Deploy your own set of ERC721/s or NFT/s on testnet. Then integrate these NFTs in a game. A simple arcade or hypercasual game will do. But make it fun. Game must have a _Connect wallet_ function, and only address that holds your deployed NFT can play.
