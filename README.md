@@ -1,17 +1,17 @@
 # BDB2022 Capstone Project
 
-This capstone project will be an application of what you've learned from the two courses of BDB2022. There are three DApp projects for you to choose. You only need to choose one.
+This capstone project will be an application of what you've learned from the two courses of BDB2022. There are three DApp projects for you to choose. You only need to select one. It's up to you as well if you'd like to do this capstone project alone, or with a team. Working with a team limits up to 3 members only.
 
 ## Setup
 1. Clone this repository by running `git clone https://github.com/sparklearnedtech/bdb2022-capstone.git`.
-2. Create your own branch using this format (firstname-lastname), checkout, and make sure you are not on main branch.
+2. Create your own branch, checkout, and make sure you are not on main branch.
 	```
-	git branch john-doe    // create branch using firstname-lastname format
-	git checkout john-doe  // checkout on newly created branch
+	git branch team-xyz    // create branch using firstname-lastname format if individual, or your team name if by group
+	git checkout team-xyz  // checkout on newly created branch
 	git branch             // check and make sure you are currently on your john-doe branch, not main
 	```
 3. As you can see, this repo only contains the `README.md` file. It's up to you to generate a new React JS project on your branch after you've chosen what type of DApp project you'd be working on.
-4. Once you're done, just message [@harveyjavier](https://github.com/harveyjavier) on Slack, and he will check your branch.
+4. Once you're done, just ping mentors [@harveyjavier](https://github.com/harveyjavier) and [@aldrickb](https://github.com/aldrickb) on `🔒bdb2022` Slack channel, and they will check you or your team's branch.
 
 ## Select from these type of DApp projects
 
