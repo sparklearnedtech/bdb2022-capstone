@@ -1,0 +1,54 @@
+/* answer-card.component */
+@media only screen and (min-width: 320px) {
+  #answer-card.answer-card-container {
+    width: 90%;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  #answer-card.answer-card-container .answer {
+    font-size: 15px;
+    font-family: "Quicksand-Bold";
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  #answer-card.selected {
+    border: 5px solid rgb(32, 176, 32);
+  }
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+  #answer-card.answer-card-container {
+    height: 280px;
+    border-radius: 5px;
+  }
+
+  #answer-card.answer-card-container .answer {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #answer-card.answer-card-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.29) 0px 10px 20px,
+      rgba(0, 0, 0, 0.5) 0px 6px 6px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #answer-card.answer-card-container {
+    height: 250px;
+    border-radius: 5px;
+  }
+}

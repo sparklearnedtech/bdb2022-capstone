@@ -1,0 +1,256 @@
+/* #game */
+@media only screen and (min-width: 320px) {
+  #game .start-game-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  #game .button-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  #game .title-screen-container {
+    margin-bottom: 25px;
+  }
+
+  #game .title-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #game .game-screen {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #game .instructions-text {
+    font-size: x-large;
+    font-family: "Quicksand-Semibold";
+  }
+
+  #game .next-button-container {
+    display: flex;
+    justify-content: right;
+  }
+
+  #game .question-container {
+    width: 100%;
+  }
+
+  #game .question-text {
+    font-family: "Quicksand-Bold";
+    font-size: large;
+  }
+
+  #game .difficulty-level-text {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .badge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .badge-container .nft-badge {
+    width: 200px;
+    height: 200px;
+  }
+
+  .modal-text {
+    font-family: "Quicksand-Semibold";
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .claim-button-container {
+    margin-bottom: 10px;
+  }
+
+  .wallet-warning {
+    font-size: x-small;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .modal-title.game {
+    font-family: "Quicksand-Bold";
+    font-weight: bold;
+  }
+
+  .modal-title.game.correct {
+    color: green;
+  }
+
+  .modal-title.game.incorrect {
+    color: red;
+  }
+
+  .modal-title.game.level-up {
+    color: goldenrod;
+  }
+
+  .btn {
+    font-family: "Quicksand-Bold";
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  #game .status-bar-container {
+    font-size: x-small;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #game .address-container {
+    flex: 3;
+  }
+
+  #game .network-container {
+    flex: 1;
+  }
+
+  #game .available-points {
+    font-size: x-small;
+    font-weight: bold;
+  }
+
+  .claim-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .claim-spinner {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .claim-button-text-container {
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #game .welcome-screen-container {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+
+  #game .welcome {
+    flex: 18;
+  }
+
+  #game .info-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #game .info-container {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #game .copyright-container {
+    text-align: center;
+    font-size: x-small;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #game .info-buttons-container .btn {
+    font-size: xx-small;
+  }
+
+  .help-info {
+    font-family: "Quicksand-SemiBold";
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #game .info-buttons-container .btn {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #game .game-screen {
+    width: 80%;
+  }
+
+  #game .instructions-text {
+    font-size: xx-large;
+  }
+
+  #game .button-container {
+    width: 30%;
+    align-items: center;
+  }
+
+  #game .question-text {
+    font-size: xx-large;
+  }
+
+  .badge-container .nft-badge {
+    width: 340px;
+    height: 340px;
+  }
+
+  .modal-text {
+    font-family: "Quicksand-Semibold";
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  #game .available-points {
+    font-size: large;
+  }
+
+  #game .info-buttons-container .btn {
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #game .question-container {
+    width: 50%;
+  }
+
+  #game .status-bar-container {
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #game .welcome {
+    flex: 14;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .badge-container .nft-badge {
+    width: 430px;
+    height: 430px;
+  }
+
+  #game .info-buttons-container .btn {
+    font-size: large;
+  }
+}

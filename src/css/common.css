@@ -1,0 +1,52 @@
+@media only screen and (min-width: 320px) {
+  .show-border {
+    border: 1px solid red;
+  }
+
+  .welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .full-height {
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.main-title {
+    font-family: "Quicksand-Bold";
+    font-size: 50px;
+  }
+
+  .textfield {
+    padding: 6px;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .main-container {
+  }
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+  h1.main-title {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1.main-title {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}
