@@ -1,0 +1,47 @@
+/bdb2022-capstone-smart-contract/node_modules
+/bdb2022-capstone-smart-contract/.env
+/bdb2022-capstone-smart-contract/coverage
+/bdb2022-capstone-smart-contract/coverage.json
+/bdb2022-capstone-smart-contract/typechain
+/bdb2022-capstone-smart-contract/typechain-types
+
+/bdb2022-capstone-smart-contract/.gitignore
+
+# Hardhat files
+/bdb2022-capstone-smart-contract/cache
+/bdb2022-capstone-smart-contract/artifacts
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/bdb2022-capstone-app/node_modules
+/bdb2022-capstone-app/.pnp
+/bdb2022-capstone-app/.pnp.js
+
+# testing
+/bdb2022-capstone-app/coverage
+
+# next.js
+/bdb2022-capstone-app/.next/
+/bdb2022-capstone-app/out/
+
+# production
+/bdb2022-capstone-app/build
+
+# misc
+/bdb2022-capstone-app/.DS_Store
+/bdb2022-capstone-app/*.pem
+
+# debug
+/bdb2022-capstone-app/npm-debug.log*
+/bdb2022-capstone-app/yarn-debug.log*
+/bdb2022-capstone-app/yarn-error.log*
+/bdb2022-capstone-app/.pnpm-debug.log*
+
+# local env files
+/bdb2022-capstone-app/.env*.local
+
+# vercel
+/bdb2022-capstone-app/.vercel
+/bdb2022-capstone-app/.gitignore
