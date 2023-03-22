@@ -1,0 +1,117 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  /* margin: 0.5rem 0; */
+}
+
+.description {
+  line-height: 1;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: rgb(83, 48, 180);
+  border: none;
+  color: #000;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(120, 84, 219);
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  color: #000;
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card input,
+.card button {
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(82, 82, 83);
+  font-size: 20px;
+  margin: 2px;
+  background-color: transparent;
+}
+
+.card svg {
+  display: flex;
+}
+
+.card button {
+  background-color: #2A2C41;
+  padding: 8px 13px;
+  border: none;
+  color: #fff;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.card button:hover {
+  background-color: #161722;
+}
+
+.card .trash {
+  background-color: #9b3429;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .completed {
+  background-color: #398141;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .completed:hover {
+  background-color: #255b2b;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .trash:hover {
+  background-color: rgb(103, 29, 21);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
