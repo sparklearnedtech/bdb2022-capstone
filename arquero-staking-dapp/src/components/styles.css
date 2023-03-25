@@ -1,0 +1,102 @@
+:root {
+  --color-gold: #DAA520;
+  --color-yellow: #F8D864;
+  --color-black: #1B1B1B;
+  --color-white: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.connected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.disconnected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.staking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input[type='text'] {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-gold);
+  color: var(--color-white);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.created-by {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: var(--color-black);
+  font-size: 14px;
+  text-align: right;
+}
+
+.created-by p {
+  margin: 0;
+}
