@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { theme } from './theme';
+import { theme } from "./theme";
 
 const ModalWrapper = styled.div`
   position: fixed;
@@ -61,7 +61,11 @@ type Props = {
   onClose: () => void;
 };
 
-const StakeSuccessModal: React.FC<Props> = ({ txHash, amountStaked, onClose }) => {
+const StakeSuccessModal: React.FC<Props> = ({
+  txHash,
+  amountStaked,
+  onClose,
+}) => {
   return (
     <ModalWrapper>
       <ModalContent>
