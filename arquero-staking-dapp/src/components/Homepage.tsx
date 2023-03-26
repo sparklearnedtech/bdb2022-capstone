@@ -34,7 +34,7 @@ const Title = styled.h1`
   font-weight: bold;
   margin-bottom: 20px;
   color: ${theme.black};
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px rgba(27, 27, 27, 0.5);
 `;
 
 const Content = styled.div`
@@ -47,7 +47,7 @@ const Content = styled.div`
   color: ${theme.black};
   font-size: 24px;
   line-height: 1.5;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
 `;
 
 const LaunchButton = styled.button`
