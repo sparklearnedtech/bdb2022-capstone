@@ -280,10 +280,10 @@ function StakingApp() {
       ) : (
         <DisconnectedContainer>
           <WelcomeText>Welcome to AST Pool Staking</WelcomeText>
-          <Button onClick={connectWallet}>Connect Wallet</Button>
-          <CreatedByText>
+          <Button onClick={connectWallet} style={{ marginBottom: '20px' }}>Connect Wallet</Button>
+          {/* <CreatedByText>
             <p>Developed with passion by Mat Ivan Arquero</p>
-          </CreatedByText>
+          </CreatedByText> */}
         </DisconnectedContainer>
       )}
       {web3 && (

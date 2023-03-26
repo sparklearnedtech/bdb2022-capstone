@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import HomePage from "./components/Homepage";
 import StakingApp from "./components/StakingApp";
 import NavMenu from "./components/NavMenu";

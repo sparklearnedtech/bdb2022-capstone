@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build -b mat-arquero"   
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
